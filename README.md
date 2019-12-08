@@ -6,5 +6,5 @@
 3. `npm start`
 
 ### Welcome Screen
-![](/Users/hamilton/Development/electron_from_scratch/images/mpe-screenshot.png)
+![](./images/mpe-screenshot.png)
 
