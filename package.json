@@ -1,0 +1,33 @@
+{
+  "name": "electron_from_scratch",
+  "version": "1.0.0",
+  "description": "Electron App from scratch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamiltonMultimedia/ElectronFromScratch.git"
+  },
+  "keywords": [
+    "Electron",
+    "From",
+    "Scratch"
+  ],
+  "author": "Terence Hamilton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HamiltonMultimedia/ElectronFromScratch/issues"
+  },
+  "homepage": "https://github.com/HamiltonMultimedia/ElectronFromScratch#readme",
+  "devDependencies": {
+    "electron": "^7.0.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
+  },
+  "dependencies": {
+    "react-desktop": "^0.3.9"
+  }
+}
