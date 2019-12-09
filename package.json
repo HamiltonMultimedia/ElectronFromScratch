@@ -1,26 +1,26 @@
 {
-  "name": "electron_from_scratch",
+  "name": "photo_editor_app",
   "version": "1.0.0",
-  "description": "Electron App from scratch",
+  "description": "Photo Editing App for Mac Desktop",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HamiltonMultimedia/ElectronFromScratch.git"
+    "url": "git+https://github.com/HamiltonMultimedia/Photo-Editing-Desktop-App.git"
   },
   "keywords": [
-    "Electron",
-    "From",
-    "Scratch"
+    "Photo",
+    "Editor",
+    "App"
   ],
   "author": "Terence Hamilton",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HamiltonMultimedia/ElectronFromScratch/issues"
+    "url": "https://github.com/HamiltonMultimedia/Photo-Editing-Desktop-App.git/issues"
   },
-  "homepage": "https://github.com/HamiltonMultimedia/ElectronFromScratch#readme",
+  "homepage": "https://github.com/HamiltonMultimedia/Photo-Editing-Desktop-App.git#readme",
   "devDependencies": {
     "electron": "^7.0.0",
     "react": "^16.11.0",
