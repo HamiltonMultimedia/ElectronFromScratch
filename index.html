@@ -1,22 +1,21 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Photo Editor</title>
-    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
-    <meta http-equiv="Content-Security-Policy" content="script-src 'self';" />
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body style="color: aliceblue;">
-      <div style="background-color: white; height: 100px; width: 800px; position: fixed; ">
-        <div style="background-color: #247BC5; height: 70%; width: max-width; top: 15%; margin:0% auto; position: relative;">
-          <div>Mac Photo Editor App</div>
-        </div>
-      </div>
-    
-    <!-- <h1>Hello World!</h1>
-    We are using node <script>document.write(process.versions.node)</script>,
-    Chrome <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>. -->
-  </body>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Photo Editor App</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://code.angularjs.org/1.6.4/angular.min.js"></script>
+	<script src="https://code.angularjs.org/1.6.4/angular-route.min.js"></script>
+</head>
+<body>
+	<div id="content">
+		<header ng-controller="headCtrl">
+			<div class="option" ng-click="close()">&#x2716;</div>
+			<div class="option" ng-click="maximize()">&#x1f5d6;</div>
+			<div class="option" ng-click="minimize()">&#x1f5d5;</div>
+		</header>
+		<div id="mainContent" ng-view></div>
+	</div>
+	<script src="script.js"></script>
+</body>
 </html>
